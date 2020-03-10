@@ -13,9 +13,9 @@ public class Main{
     public static void main(String[] args) throws Exception {
         String inputFile = null;
         if(args.length>0) inputFile= args[0];
-
+//NOTA:  con ctrl+d, detengo el proceso cuando uso consola y lo analiza
 //Fuerza la carga del fichero de preubas
-inputFile = "source.smp";
+//inputFile = "source.smp";
 
         InputStream is = System.in;
         if (inputFile != null ) is= new FileInputStream(inputFile);
